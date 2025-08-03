@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react"; // Import hamburger menu icons
 
 // Put navigation links in a constant for easier management
 const NAV_LINKS = [
-  { href: "#about-me", label: "About me" },
+  { href: "#", label: "About me" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact Me" },
@@ -23,16 +23,16 @@ const Navbar = () => {
       <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 md:px-10">
         <div className="w-full h-full flex flex-row items-center justify-between m-auto">
           {/* Logo */}
-          <a
-            href="#about-me"
-            className="h-auto w-auto flex flex-row items-center"
-          >
-            {/* You should have a small icon logo that is always visible */}
-            <span className="text-xl font-bold ml-[10px] hidden md:block">
-              <span className="text-blue-500">Subhadeep</span>
-              <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent"> Portfolio</span>
-            </span>
-          </a>
+         <a
+  href="#"
+  className="h-auto w-auto flex flex-row items-center"
+>
+  <span className="font-bold ml-2 text-base sm:text-lg md:text-xl">
+    <span className="text-blue-500">Subhadeep&apos;s</span>
+    <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 bg-clip-text text-transparent"> Portfolio</span>
+  </span>
+  {/* ======================= END OF FIX ======================= */}
+</a>
 
           {/* Desktop Navigation */}
           <div className="w-auto h-full hidden md:flex flex-row items-center justify-between">

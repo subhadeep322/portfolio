@@ -46,14 +46,14 @@ const HeroContent = () => {
         </motion.div>
 
         <motion.p
-          variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
-        >
-          {/* THE FIX IS HERE */}
-          Hi, I&apos;m Subhadeep Paul, a MERN Stack Developer specializing in
-          building dynamic web applications. I integrate modern design with AI
-          features to create intelligent and user-friendly digital solutions.
-        </motion.p>
+  variants={slideInFromLeft(0.8)}
+  // THE FIX IS HERE: Replaced text-gray-400 with gradient classes
+  className="text-lg my-5 max-w-[600px] bg-gradient-to-r from-blue-500 via-purple-500 to-white bg-clip-text text-transparent animate-pulse"
+>
+  Hi, I&apos;m Subhadeep Paul, a MERN Stack Developer specializing in
+  building dynamic web applications. I integrate modern design with AI
+  features to create intelligent and user-friendly digital solutions.
+</motion.p>
         
         <motion.a
           href={UserData.githubUrl}

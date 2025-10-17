@@ -33,7 +33,7 @@ const Projects = () => {
           src="/codify.png"
           title="Codify - Saas code editor"
           description="A modern code editor built with Next.js and Monaco Editor. It features syntax highlighting, code completion, and a customizable interface. Perfect for developers who want a lightweight and efficient coding environment in the browser.  "
-          link="codify-two.vercel.app"
+          link="https://codify-two.vercel.app/"
         />
       </div>
     </div>

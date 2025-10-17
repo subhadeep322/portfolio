@@ -29,6 +29,12 @@ const Projects = () => {
           description="A video chat application that allows users to connect with each other in real-time. It features user authentication, private messaging, and video conferencing. Built with MERN stack.Call and chat with your friends, family and loved ones instantly!"
           link="https://simplyfy-video-chat.onrender.com"
         />
+        <ProjectCard
+          src="/codify.png"
+          title="Codify - Saas code editor"
+          description="A modern code editor built with Next.js and Monaco Editor. It features syntax highlighting, code completion, and a customizable interface. Perfect for developers who want a lightweight and efficient coding environment in the browser.  "
+          link="codify-two.vercel.app"
+        />
       </div>
     </div>
   );

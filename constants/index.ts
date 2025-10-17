@@ -140,7 +140,7 @@ export const Socials = [
   },
   {
     name: "Instagram",
-    src: "/instagram.svg", // Note: you're using a discord icon for Instagram
+    src: "/instagram.svg", 
     // Add the link to your Instagram profile
     link: "https://www.instagram.com/subhadeep_paul2007?igsh=MTZlZzBjdWEyYTl6Zg==", 
   },
